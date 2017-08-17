@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rizaakh - Food place for all</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#" id="openNav" onclick="openSlide()"><span class="fa fa-bars fa-3x"></span></a>
+        <ul class="navbar-list">
+            <li><a class="selected" href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div id="side-nav" class="side-nav">
+        <a id="closeNav" onclick="closeSlide()" href="#"><span class="fa fa-close"></span></a>
+        <a href="#">Home</a>
+        <a href="#">Order</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Feedback</a>
+    </div>
+
+    <div id="main-content">
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">Rizaakh</span>
+            </div>
+        </div>
+        <section class="section blockquote section-light">
+            <blockquote class="blockquote">
+                <h2 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h2>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+        </section>
+
+        <div class="pimg2">
+            <div class="ptext2">
+                <span class="border">Foonaticcc...</span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <blockquote class="blockquote">
+                <h2 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h2>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+        </section>
+
+        <div class="pimg3">
+            <div class="ptext2">
+                <span class="border">No one should be starving...</span>
+            </div>
+        </div>
+
+        <section class="section section-light">
+            <blockquote class="blockquote">
+                <h2 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h2>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+        </section>
+
+        <div class="pimg4">
+            <div class="ptext">
+                <span class="border">Food for all...</span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <blockquote class="blockquote">
+                <h2 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h2>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+        </section>
+
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">Rizaakh</span>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footertext">
+                <span class="border"> https://github.com/MohammedDeveloper | All right(s) reserved </span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        function openSlide(){
+            document.getElementById("side-nav").style.width = "200px";
+            document.getElementById("main-content").style.marginLeft = "200px";
+        }
+
+         function closeSlide(){
+            document.getElementById("side-nav").style.width = "0px";
+            document.getElementById("main-content").style.marginLeft = "0px";
+        }
+
+    </script>
+</body>
+
+</html>
